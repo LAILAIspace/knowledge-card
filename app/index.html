@@ -1,58 +1,123 @@
 ---
-title: Boostrap Index
+title: 首頁
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
 
-<div class="container">
-  <h1 class="index__h1">這是一段話</h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
-  </div>
-</div>
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
+<main>
+  <section class="subscription text-center">
+    <h4 class="mb-0">每天都想獲得一則豆知識推播嗎？</h4>
+  </section>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+  <section class="intro bg-primary">
+    <div class="container">
+      <div class="row justify-content-center g-lg-9 g-md-4">
+        <div class="side col-lg-4 col-md-5 d-none d-md-block text-white d-flex flex-column text-center">
+          <div class="left-item py-7">
+            <div class="mb-9 d-flex flex-column align-items-center">
+              <img src="././assets/images/ImgBulb.svg" alt="" class="mb-5" width="50">
+              <img src="./assets/images/logo.svg" width="130" height="42" class="mb-4" alt="logo">
+              <p class="mb-5">摘要型知識網站</p>
+              <div class="d-flex gap-4">
+                <a href="https://www.instagram.com/">
+                  <img src="././assets/images/IconInstagram.svg" alt="">
+                </a>
+                <a href="https://www.facebook.com/">
+                  <img src="././assets/images/IconFacebook.svg" alt="">
+                </a>
+                <a href="https://line.me/zh-hant/">
+                  <img src="././assets/images/IconLine.svg" alt="">
+                </a>
+              </div>
+            </div>
+            <h3 class="mb-5">今日冷知識</h3>
+            <div class="border mb-9 py-6 px-7">
+              <h5 class="mb-4">當有人說你腦袋進水</h5>
+              <p class="text-start">大腦確實含水比例為 75%，水分攝取<br>不足會影響大腦認知功能及情緒，所以<br>這句話的用法應該是：你腦袋缺水。</p>
+            </div>
+            <h3 class="mb-5">今日豆推書</h3>
+            <div class="border mb-9 py-6 px-7">
+              <h5 class="mb-6">冷知識背後的熱思考</h5>
+              <img src="././assets/images/ImgBook.png" alt="" class="mb-6">
+              <p class="text-start ms-3">啾啾鞋教你大腦開外掛的 30 個法則，往更好的方向前進！</p>
+            </div>
+          </div>
+        </div>
+        <div class="topic col-lg-6 col-md-7">
+          <h2 class="mb-8 text-center">精選主題</h2>
+          <div class="item d-flex flex-column gap-6">       
+            <div class="card-box bg-white d-flex flex-column align-items-center py-6">
+              <h3>身體保健</h3>
+              <img src="././assets/images/ImgTopic01.svg" alt="..." width="240" height="300" class="mb-4">
+              <span class="card-text mb-4">
+                <p>除了三高還有一骨密</p>
+                <p>透過自我覺察 提升身體的療癒力</p>
+                <p>腸道菌叢多樣性與健康有關</p>
+              </span>
+              <span class="btn">
+                <a href="" class="fw-bold">Read More</a>
+              </span>
+            </div>
+
+            <div class="card-box bg-white d-flex flex-column align-items-center py-6">
+              <h3>身體保健</h3>
+              <img src="././assets/images/ImgTopic01.svg" alt="..." width="240" height="300" class="mb-4">
+              <span class="card-text mb-4">
+                <p>除了三高還有一骨密</p>
+                <p>透過自我覺察 提升身體的療癒力</p>
+                <p>腸道菌叢多樣性與健康有關</p>
+              </span>
+              <span class="btn">
+                <a href="" class="fw-bold">Read More</a>
+              </span>
+            </div>
+
+            <div class="card-box bg-white d-flex flex-column align-items-center py-6">
+              <h3>身體保健</h3>
+              <img src="././assets/images/ImgTopic01.svg" alt="..." width="240" height="300" class="mb-4">
+              <span class="card-text mb-4">
+                <p>除了三高還有一骨密</p>
+                <p>透過自我覺察 提升身體的療癒力</p>
+                <p>腸道菌叢多樣性與健康有關</p>
+              </span>
+              <span class="btn">
+                <a href="" class="fw-bold">Read More</a>
+              </span>
+            </div>
+
+            <div class="card-box bg-white d-flex flex-column align-items-center py-6">
+              <h3>身體保健</h3>
+              <img src="././assets/images/ImgTopic01.svg" alt="..." width="240" height="300" class="mb-4">
+              <span class="card-text mb-4">
+                <p>除了三高還有一骨密</p>
+                <p>透過自我覺察 提升身體的療癒力</p>
+                <p>腸道菌叢多樣性與健康有關</p>
+              </span>
+              <span class="btn">
+                <a href="" class="fw-bold">Read More</a>
+              </span>
+            </div>
+
+            <div class="card-box bg-white d-flex flex-column align-items-center py-6">
+              <h3>身體保健</h3>
+              <img src="././assets/images/ImgTopic01.svg" alt="..." width="240" height="300" class="mb-4">
+              <span class="card-text mb-4">
+                <p>除了三高還有一骨密</p>
+                <p>透過自我覺察 提升身體的療癒力</p>
+                <p>腸道菌叢多樣性與健康有關</p>
+              </span>
+              <span class="btn">
+                <a href="" class="fw-bold">Read More</a>
+              </span>
+            </div>
+            
+
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </section>
+</main>
+
