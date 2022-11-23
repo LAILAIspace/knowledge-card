@@ -6,9 +6,11 @@
 
   a {
     color: #fff;
+    padding: 40px 30px;
   }
 
   .btn-outline-white {
+    padding: 0px;
     :hover {
       color: $primary;
     }
