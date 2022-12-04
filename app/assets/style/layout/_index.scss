@@ -6,9 +6,17 @@
     padding: 5px;
   }
 
+  .text {
+    width: 150px;
+    @include media-breakpoint-up(md) {
+      width: 200px;
+    }
+  }
+
   .submit {
     background-color:#030418;
     color:white;
+ 
   }
 
   .submit[type="submit"]:hover {
