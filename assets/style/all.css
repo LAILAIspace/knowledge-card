@@ -14387,6 +14387,16 @@ nav {
   padding: 5px;
 }
 
+.subscription .text {
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  .subscription .text {
+    width: 200px;
+  }
+}
+
 .subscription .submit {
   background-color: #030418;
   color: white;
